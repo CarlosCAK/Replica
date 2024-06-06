@@ -3,11 +3,14 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Space Grotesk", sans-serif;
-
     font-style: normal;
-    background-color: #fff;
+    
 }
-
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 :root{
     --primary-color: #3778FA;
@@ -67,7 +70,17 @@ nav{
 
 .content-2 .cellphone-img{
     position: relative;
-    margin-top: 56px;
-    margin-bottom: 60px;
-    background: transparent;
+    margin-top: 34.87px;
+    ;
+}
+.content-3{
+    margin-top: 110px;
+    width: 323px;
+    
+    
+}
+.content-3 h2{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: -1.2px;
 }
