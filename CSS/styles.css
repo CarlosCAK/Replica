@@ -36,14 +36,15 @@ nav{
     display: none;
 }
 .content{
-    width: 80%;
+    width: 94%;
     margin: 0 auto;
 
     text-align: center;
     margin-top: 57px;
 }
-.title-content{
+.title-content {
     margin-bottom: 21px;
-    font-size: 32px;
-
+}
+.title-content h2{
+    font-size: 46px;
 }
