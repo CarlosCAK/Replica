@@ -60,24 +60,18 @@ nav{
     position: absolute;
     margin: 87px auto 0 auto;
 
-
 }
 
-.content-2{
-    display: flex;
-    justify-content: center;
-}
+
 
 .content-2 .cellphone-img{
     position: relative;
     margin-top: 34.87px;
-    ;
+    
 }
 .content-3{
     margin-top: 110px;
     width: 323px;
-    
-    
 }
 .content-3 h2{
     text-align: center;
@@ -87,4 +81,31 @@ nav{
 .content-3 img{
     width: 388px;
     text-align: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-4 h2{
+    margin-bottom: 27PX;
+}
+.img-discovery-job img {
+    width: 181.836px;
+    height: 293.056px;
+    margin-top: 57.94px;
+}
+.content-4 .subtitle img{
+    width: 6.333px;
+    height: 6.333px;
+}
+.subtitle{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    height: 54px;
+}
+.subtitle h4{
+    font-size: 16px     ;
 }
