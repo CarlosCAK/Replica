@@ -453,13 +453,20 @@ nav {
   .content-4 h2 {
     margin-bottom: 79px;
   }
+  footer {
+    margin-top: 240px;
+  }
 
- 
+  footer {
+    height: 1160px;
+  }
   .first-half {
     display: flex;
     width: 100%;
     justify-content: space-between;
     margin-bottom: 134px;
+    align-items: center;
+    margin-top: 140px;
   }
   .first-half h2 {
     font-size: 136px;
@@ -486,42 +493,51 @@ nav {
     font-weight: 600;
     line-height: normal;
   }
-  .white-bar{
+  .more-about {
+    margin-top: 56px;
+  }
+  .white-bar {
     width: 100%;
     margin: 0 auto;
   }
-  .copyright{
+  .copyright {
     flex-direction: row;
     justify-content: space-between;
   }
-  .footer-container{
+  .copyright  p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+  .footer-container {
     margin-right: 140px;
     margin-left: 140px;
   }
-  .second-half{
+  .second-half {
     width: 1640px;
+    margin-top: 160px;
   }
-  .container-navs{
+  .container-navs {
     display: flex;
     justify-content: space-around;
     align-content: center;
     width: 1640px;
     margin-left: -20px;
   }
-  .about-navegation{
+  .about-navegation {
     height: 180px;
     flex-direction: row;
     margin-top: 0;
     width: 60%;
-    gap: 187px
-  } 
+    gap: 187px;
+  }
 
-  .about-navegation ul li a{
+  .about-navegation ul li a {
     font-size: 22px;
     font-weight: 400;
     line-height: 36px;
   }
-  .nav-company{
+  .nav-company {
     height: 180px;
     justify-content: space-between;
   }
@@ -529,30 +545,32 @@ nav {
     justify-content: space-between;
     margin-right: 187px;
   }
-  .nav-company ul li a{
+  .nav-company ul li a {
     font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: 36px;
   }
-  .talenthive-footer{
+  .talenthive-footer {
     display: flex;
     justify-content: space-between;
     gap: 200px;
     justify-content: flex-start;
   }
-  .talenthive-footer h4{
+  .talenthive-footer h4 {
     font-size: 40px;
     font-weight: 600;
-    line-height: normal;    
+    line-height: normal;
   }
-  .talenthive-footer p{
+  .talenthive-footer p {
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
   }
-  .column-footer{
+  .column-footer {
     height: 180px;
   }
-
+  .address{
+    width: 674px;
+  }
 }
