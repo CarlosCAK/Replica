@@ -264,7 +264,7 @@ nav {
   width: 288px;
   letter-spacing: 0.35px;
 }
-.address span {
+.address span a {
   color: #a0da7a;
 }
 
