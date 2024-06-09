@@ -17,6 +17,10 @@ main{
     --text-color: #000;
 }
 
+a{
+    text-decoration: none;
+    color: #FFF;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -32,7 +36,7 @@ header .header-title{
 header img{
     margin-right: 24px;
 }
-nav{
+header nav{
     display: none;
 }
 .login{
@@ -77,6 +81,7 @@ nav{
     text-align: center;
     font-size: 30px;
     letter-spacing: -1.2px;
+    margin-bottom: 35px;
 }
 .content-3 img{
     width: 388px;
@@ -86,6 +91,9 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.content-4{
+   margin: 109px 20px 0px 20px;
 }
 
 .content-4 h2{
@@ -103,9 +111,168 @@ nav{
 .subtitle{
     margin-top: 40px;
     display: flex;
-    align-items: center;
     height: 54px;
+    justify-content: space-between;
+    width: 344px;
+    margin: 0px 22px 17px 22px;
+    align-items: center;
+    align-content: center;
 }
 .subtitle h4{
-    font-size: 16px     ;
+    font-size: 16px;
+}
+
+#subtitle-column{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0px 22px 17px 22px;
+}
+#subtitle-column .text-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 344px;
+}
+#subtitle-column p{
+    margin-top: 6px;
+    font-size: 10px;
+    width: 227px;
+    color: #65676C;
+}
+.first{
+    margin-top:40px;
+}
+ul{
+    list-style: none;
+}
+
+footer{
+    background-color: var(--primary-color);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+}
+.first-half{
+    margin: 68px 20px 0px 20px;
+}
+.first-half p{
+    font-size: 14px;
+    color: #FFF;
+    width: 271px;
+    margin-bottom: 27px;
+
+}
+.first-half h2{
+
+    color: #FFF;
+    text-align: center;
+    font-size: 46px;
+    line-height: 56px; 
+    letter-spacing: -1.84px;
+    width: 239px;
+    margin-bottom: 27px;
+}
+.first-half .learn-more{
+    margin-bottom: 93px;
+    width: 119px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.learn-more a {
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    text-decoration: none;
+}
+.white-bar{
+    height: 1px;
+    width: 388px;
+    background-color: #FFF;
+    align-self: center;
+}
+.second-half{
+    display: flex;
+    flex-direction: column;
+    margin-top: 79px;
+}
+.talenthive-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.company h4 {
+    font-size: 20px;
+    margin-bottom: 17px;
+}
+.company p{
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+width: 195px;
+}
+.footer-container{
+    margin: 0 20px;
+}
+.nav-company{
+    height: 110px;
+    display: flex;
+    align-items: center;
+
+}
+.nav-company ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+.about-navegation{
+    margin-top: 74px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+   
+}
+.column-footer ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.column-footer ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.copyright{
+    margin-top: 76px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.copyright p{
+    margin: 19px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px
+}
+#last-content{
+    margin-bottom: 32px;
+}
+.address{
+   width: 288px;
+   letter-spacing: 0.35px;
+}
+.address span{
+    color: #A0DA7A;
 }
